@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.--title_bar {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    border-radius: 10px;
+}
+
+.--title_bar img{
+    size: 24px;
+}
+
+.--title_bar p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.--travel_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    height: 200px;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.--travel_container img {
+    border-radius: 10px;
+    width: 180px;
+    height: 230px;
+}
+
+.--country_name_container {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.--country_name_container img {
+    height: 10px;
+    width: 6px;
+}
+
+.--country_name_container p {
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.--country_name_container a {
+    font-size: 10px;
+    color: #918E9B;
+    ;
+}
+
+.--travel_container h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
