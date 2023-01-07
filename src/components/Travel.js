@@ -11,9 +11,9 @@ export default function Travel(props) {
                     <p>{props.travelInfo.location}</p>
                     <a href={props.travelInfo.googleMapsUrl}>View on Google Maps</a>
                 </div>
-                <h2>{props.travelInfo.title}</h2>
-                <p>{props.travelInfo.startDate} - {props.travelInfo.endDate}</p>
-                <p>{props.travelInfo.description}</p>
+                <h2 className='--travel_title'>{props.travelInfo.title}</h2>
+                <p className='--travel_date'>{props.travelInfo.startDate} - {props.travelInfo.endDate}</p>
+                <p className='--travel_description'>{props.travelInfo.description}</p>
             </div>
         </div>
     )
