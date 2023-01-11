@@ -1,6 +1,6 @@
 # my-travel-journal
 
-This is a static ReactJS page I build to show my travel journal. 
+This is a static ReactJS page I built to show my travel journal. 
 
 The design was provided in a challenge at Scrimba.com and the code was all done by myself using 
 what I learned in section 2 of their React course.
